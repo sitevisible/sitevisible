@@ -471,18 +471,24 @@
         <div class="hero-content">
             <h1>Votre site visible sur Google,<br>vos clients viennent à vous</h1>
             <p>Création de sites web optimisés SEO pour professions libérales à Lille</p>
-            <a href="#contact" class="cta-button">Devis gratuit en 24h</a>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <a href="#rdv" class="cta-button">Prendre RDV gratuit</a>
+                <a href="#tarifs" class="cta-button" style="background: transparent; border: 2px solid white; color: white;">Voir les tarifs</a>
+            </div>
         </div>
     </section>
 
     <section id="services">
         <h2>Mes Services</h2>
         <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">🎯</div>
-                <h3>SEO Optimisé</h3>
-                <p>Votre site apparaît en première page Google pour attirer vos clients locaux. Stratégie de mots-clés, optimisation technique et contenu adapté à votre secteur.</p>
-            </div>
+            <a href="seo.html" style="text-decoration: none; color: inherit;">
+                <div class="service-card" style="cursor: pointer; transition: all 0.3s ease;">
+                    <div class="service-icon">🎯</div>
+                    <h3 style="color: #667eea;">SEO Optimisé</h3>
+                    <p>Votre site apparaît en première page Google pour attirer vos clients locaux. Stratégie de mots-clés, optimisation technique et contenu adapté à votre secteur.</p>
+                    <p style="margin-top: 1rem; color: #667eea; font-weight: 600;">→ En savoir plus sur notre approche SEO</p>
+                </div>
+            </a>
             <div class="service-card">
                 <div class="service-icon">✨</div>
                 <h3>Design Professionnel</h3>
@@ -586,8 +592,8 @@
                 </ul>
             </div>
         </div>
-        <div style="text-align: center;">
-            <a href="#contact" class="cta-button">Demander un devis personnalisé</a>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="#rdv" class="cta-button">Réserver mon appel découverte gratuit</a>
         </div>
     </section>
 
@@ -615,8 +621,34 @@
         </div>
     </section>
 
+    <section id="rdv" style="background: #f7fafc;">
+        <h2>Réservez votre appel découverte gratuit</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center; margin-bottom: 3rem;">
+            <p style="font-size: 1.2rem; color: #4a5568; margin-bottom: 1rem;">
+                Échangeons 30 minutes pour discuter de votre projet et voir comment je peux vous aider à développer votre visibilité en ligne.
+            </p>
+            <p style="color: #718096;">
+                ✓ Sans engagement &nbsp;&nbsp; ✓ Conseils personnalisés &nbsp;&nbsp; ✓ Devis en direct
+            </p>
+        </div>
+        
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/votre-lien-calendly/30min?hide_gdpr_banner=1&primary_color=667eea" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+        
+        <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 15px; max-width: 600px; margin-left: auto; margin-right: auto; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+            <p style="color: #667eea; font-weight: 600; margin-bottom: 0.5rem;">💡 Comment ça marche ?</p>
+            <p style="color: #4a5568; font-size: 0.95rem;">
+                1. Choisissez un créneau qui vous convient<br>
+                2. Recevez une confirmation par email<br>
+                3. On se retrouve en visio ou par téléphone
+            </p>
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Demandez votre devis gratuit</h2>
+        <h2>Ou contactez-moi directement</h2>
         <div class="contact-container">
             <form id="contactForm">
                 <div class="form-group">
